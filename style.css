@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    font-size: 30px;
+    
+
+
+}
+.main{
+    width: 100%;
+    background: url("pic.png");
+    background-position:center;
+    background-size: cover;
+    height: 109vh;
+}
+nav{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    padding-right: 35px;
+    padding-left: 15px;
+}
+.navdiv{
+    display: flex; align-items: top ; justify-content: space-between;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px; /* Add padding to each link */
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Set the text color to white */
+  display: block; /* Make links display as block elements */
+}
+.li a{
+    color: white;
+    font-size: 100 px;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-top: 50px;
+    padding: 10px; /* Add padding to each link */
+  text-decoration: none; /* Remove underline from links */
+  color: #fff; /* Set the text color to white */
+  display: block; /* Make links display as block elements */
+}
